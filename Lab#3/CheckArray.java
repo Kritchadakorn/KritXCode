@@ -14,9 +14,10 @@ public class CheckArray {
         CheckArray ChA = new CheckArray();
         int arr1[] = {1, 2, 4};
         int arr2[] = {4, 1, 2};
-        Arrays.sort(arr1);
-        Arrays.sort(arr2);
+//      Arrays.sort(arr1);
+//      Arrays.sort(arr2);
         boolean result = ChA.isEqual(arr1, arr2);
         System.out.println(result);
     }
 }
+
